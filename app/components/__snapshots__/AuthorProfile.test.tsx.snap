@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`AuthorProfile Snapshot Testing should match snapshot for standard author profile 1`] = `
+<div>
+  <div
+    class="mt-12 pt-8 border-t border-neutral-200 dark:border-neutral-800"
+  >
+    <div
+      class="flex items-start gap-4"
+    >
+      <img
+        alt="Profile picture of John Doe"
+        class="rounded-full"
+        height="64"
+        src="/images/john-doe.jpg"
+        width="64"
+      />
+      <div
+        class="flex-1"
+      >
+        <h3
+          class="font-bold text-lg text-neutral-900 dark:text-neutral-100"
+        >
+          John Doe
+        </h3>
+        <p
+          class="mt-2 text-sm text-neutral-600 dark:text-neutral-400"
+        >
+          Software engineer and technical writer passionate about web development.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AuthorProfile Snapshot Testing should match snapshot with minimal author data 1`] = `
+<div>
+  <div
+    class="mt-12 pt-8 border-t border-neutral-200 dark:border-neutral-800"
+  >
+    <div
+      class="flex items-start gap-4"
+    >
+      <img
+        alt="Profile picture of A"
+        class="rounded-full"
+        height="64"
+        src="/a.jpg"
+        width="64"
+      />
+      <div
+        class="flex-1"
+      >
+        <h3
+          class="font-bold text-lg text-neutral-900 dark:text-neutral-100"
+        >
+          A
+        </h3>
+        <p
+          class="mt-2 text-sm text-neutral-600 dark:text-neutral-400"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
